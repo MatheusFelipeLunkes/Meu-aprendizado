@@ -12,3 +12,5 @@ let nome = 'Matheus';
 const horas = 21;
 
 console.log(`Meu nome é "${nome}". Estou aprendendo Javascript às ${horas} da noite.`);
+
+// Meu nome é "Matheus". Estou aprendendo Javascript às 21 da noite.
