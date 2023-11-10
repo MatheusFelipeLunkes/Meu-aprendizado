@@ -1,16 +1,30 @@
-const numeroDigitado = Number(prompt('Digite um número:'));
+/* Aula 11 - Exercicios com Numbers e Math */
 
-const resultadoRaizQuadrada = Math.sqrt(numeroDigitado);
+/* Receba a entrada que o usuario digitar, e imprima os seguintes resultados:
+    - Mostre o numero digitado pelo usuario;
+    - A raiz quadrada do numero;
+    - Verifique se o numero é inteiro;
+    - Verifique se o numero é um NaN;
+    - Arredonde o numero para baixo;
+    - Arredonde o Numero para cima;
+    - Mostre o numero com apenas 2 casas decimais.
 
-const numeroInteiro = Number.isInteger(numeroDigitado);
+*/
 
-const isNan = Number.isNaN(numeroDigitado);
 
-const numCima = Math.ceil(numeroDigitado);
+const numeroDigitado = Number(prompt('Digite um número:')); // Recebendo e tratando o numero
 
-const numBaixo = Math.floor(numeroDigitado);
+const resultadoRaizQuadrada = Math.sqrt(numeroDigitado); //Raiz quadrada
 
-const numArredondado = numeroDigitado.toFixed(2);
+const numeroInteiro = Number.isInteger(numeroDigitado); //Numero Inteiro
+
+const isNan = Number.isNaN(numeroDigitado); //IsNaN
+
+const numCima = Math.ceil(numeroDigitado); //Arredondando para cima
+
+const numBaixo = Math.floor(numeroDigitado); //Arrendondando para baixo
+
+const numArredondado = numeroDigitado.toFixed(2); // 2 Casas decimais
 
 document.body.innerHTML = `Seu número é: ${numeroDigitado}; <br />`;
 
