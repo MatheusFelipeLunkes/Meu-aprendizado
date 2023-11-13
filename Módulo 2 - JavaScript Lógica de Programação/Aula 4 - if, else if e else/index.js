@@ -22,3 +22,21 @@ if(hora <= 12) {
 }else {
     console.log('Boa noite');
 }
+
+// Exercitando if, else if e else:
+
+const numero = Number(20);
+console.log(typeof (numero));
+
+if (numero >= 0 &&  numero <= 20) {
+    console.log('O numero é maior que zero e menor que 20, tente adivinhar!');
+} else {
+    console.log("O numero não está entre zero e 20!");
+} // O primeiro if retorna false na checagem da expressão, e executa o bloco else.
+
+if (numero !=  Number) {
+    console.log('Nosso numero é do tipo Number');
+}else {
+    console.log('O numero não é um Number');
+} 
+// Podemos checar os tipos dados, se numero for do tipo Number avalia como verdadeiro. 
