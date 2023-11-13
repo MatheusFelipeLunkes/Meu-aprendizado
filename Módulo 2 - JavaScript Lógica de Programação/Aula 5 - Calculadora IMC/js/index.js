@@ -39,7 +39,7 @@ function calculadoraIMC () {
         }if (resultado >= 18.5 && resultado <= 24.9){
             exibeResultado(tabelaIMC[1])
 
-        }else if(resultado < 18.5){
+        }else if(resultado <= 18.5){
             exibeResultado(tabelaIMC[0]);
 
         } }
