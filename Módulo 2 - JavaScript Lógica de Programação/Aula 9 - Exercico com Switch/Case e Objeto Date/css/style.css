@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(94, 138, 123);
+}
+.container {
+    margin: 100px auto;
+    border-radius: 15px;
+    background-color: white;
+    width: 600px;
+    height: 100px;
+}
