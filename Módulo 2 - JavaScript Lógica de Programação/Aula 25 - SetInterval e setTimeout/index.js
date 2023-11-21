@@ -17,4 +17,4 @@ const timer = setInterval(() => {
 
 setTimeout (() => {
     clearInterval(timer);
-}, 10000);
+}, 5000);
