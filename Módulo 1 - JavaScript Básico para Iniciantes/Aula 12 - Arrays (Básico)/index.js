@@ -19,7 +19,7 @@ const remove = frutas.pop(); // A função pop() remove o ultimo indice do array
 
 const removeFruta = frutas.shift(); // A função sifht remove o primeiro indice do array.
 
-console.log(frutas[2], frutas);
+console.log(remove);
 
 
 
